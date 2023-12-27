@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+    body {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: rgb(43, 42, 48);
+       
+        
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container {
+       display: grid;       
+       height: 400px;
+       grid-template-columns: 200px 200px 200px;
+       grid-template-rows: 1fr 1fr;
+       grid-gap: 10px;
+
+    }
+
+    .container > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+        border-radius: 40px;
+        font-family: Montserrat,sans-serif;
+        gap: 10px;
+        
+    }
+
+    .box1 {
+        background-color: rgb(241, 230, 230);
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .box2 {
+        background-color: rgb(123, 123, 218);
+
+    }
+
+    .box3 {
+        background-color: rgb(122, 181, 221);
+    }
+
+    .box4 {
+        background-color: rgb(201, 179, 106);
+    }
+
+    .box5 {
+        background-color: rgb(179, 188, 189);
+    }
+
+
+</style>
+
+
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="box1">
+            <h1>Save more and get visibility for your business</h1>
+            <p>Sample text. Click to select the Text Element.</p>
+        </div>
+        <div class="box2">
+            <h4>SMS Marketing</h4>
+            <p>Sample text. Click to select the Text Element.</p>
+        </div>
+        <div class="box3">
+            <h4>Paid Media</h4>
+            <p>Sample text. Click to select the Text Element.</p>
+        </div>
+        <div class="box4">
+            <h4>Website Optimization</h4>
+            <p>Sample text. Click to select the Text Element.</p>
+        </div>
+        <div class="box5">
+            <h4>SMS Marketing</h4>
+            <p>Sample text. Click to select the Text Element.</p>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
